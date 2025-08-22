@@ -3,7 +3,7 @@
 A simple and clean task tracking app to help you stay focused.  
 Built with **React + TypeScript + TailwindCSS**, and deployed on **Vercel**.  
 
-👉 Live Demo: [FocusList on Vercel](https://task-tracker-beta-sage.vercel.app/)
+👉 Live Demo: [FocusList on Vercel](https://task-tracker-git-main-saikelkars-projects.vercel.app/)
 
 ---
 
