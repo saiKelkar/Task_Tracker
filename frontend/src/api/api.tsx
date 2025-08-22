@@ -7,19 +7,19 @@ const API = axios.create({
 });
 
 export const getTasks = () => 
-    API.get<TaskResponse[]>("/tasks/");
+    API.get<TaskResponse[]>("/");
 
 export const getTaskById = (id:number) => 
-    API.get<TaskResponse>(`/tasks/${id}`);
+    API.get<TaskResponse>(`/${id}`);
 
 export const getTasksByTag = (tag:TaskProgress) =>
-    API.get<TaskResponse[]>(`/tasks/tags/${tag}`);
+    API.get<TaskResponse[]>(`/tags/${tag}`);
 
 export const createTask = (data: TaskCreate) =>
-    API.post<TaskResponse>("/tasks/", data);
+    API.post<TaskResponse>("/", data);
 
 export const updateTask = (id:number, data:TaskCreate) =>
-    API.put<TaskResponse>(`/tasks/${id}`, data);
+    API.put<TaskResponse>(`/${id}`, data);
 
 export const deleteTask = (id:number) =>
-    API.delete<{ message: string }>(`/tasks/${id}`);
+    API.delete<{ message: string }>(`/${id}`);
