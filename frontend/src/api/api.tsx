@@ -3,7 +3,7 @@ import type { TaskCreate, TaskResponse } from "./types";
 import { TaskProgress } from "./types";
 
 const API = axios.create({
-    baseURL: "https://task-tracker-sqs8.vercel.app/",
+    baseURL: "https://task-tracker-i1wv.onrender.com/",
 });
 
 export const getTasks = () => 
