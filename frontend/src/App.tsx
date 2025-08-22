@@ -77,7 +77,7 @@ export default function App() {
             <tbody>
               { tasks.map((t) => (
                 <tr key={ t.id } className="p-1">
-                  <td>{ t.taskHead }</td>
+                  <td className="pr-8">{ t.taskHead }</td>
                   <td>
                     <select
                       value={ t.tags }
@@ -91,7 +91,7 @@ export default function App() {
                   <td>
                     <button 
                       onClick={ () => handleDelete(t.id) }
-                      className="px-2">
+                      className="pl-6">
                         ×
                       </button>
                   </td>
