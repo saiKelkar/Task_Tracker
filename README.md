@@ -15,7 +15,6 @@ Built with **React + TypeScript + TailwindCSS**, and deployed on **Vercel**.
 - ❌ Delete tasks when completed or no longer needed  
 - 🎨 Styled with TailwindCSS for a minimal UI  
 
-*(Update functionality is planned for future versions)*
 
 ---
 
@@ -23,7 +22,7 @@ Built with **React + TypeScript + TailwindCSS**, and deployed on **Vercel**.
 
 - **Frontend:** React, TypeScript, TailwindCSS  
 - **State Management:** React hooks (`useState`)  
-- **Deployment:** Vercel  
+- **Deployment:** Vercel, Render  
 
 ---
 
